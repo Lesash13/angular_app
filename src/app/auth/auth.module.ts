@@ -3,7 +3,7 @@ import {CommonModule} from '@angular/common'
 import {RouterModule, Routes} from '@angular/router'
 import {ReactiveFormsModule} from '@angular/forms'
 
-import {RegisterComponent} from './components/registry/register.component'
+import {RegisterComponent} from './components/register/register.component'
 import {StoreModule} from '@ngrx/store'
 import {reducers} from './store/reducers'
 import {AuthService} from './services/auth.service'

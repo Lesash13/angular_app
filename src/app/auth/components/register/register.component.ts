@@ -11,7 +11,7 @@ import {RegisterRequestInterface} from '../../types/registerRequest.interface'
 import {BackendErrorsInterface} from '../../../shared/types/backendErrors.interface'
 
 @Component({
-  selector: 'app-register',
+  selector: 'mc-register',
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.scss'],
 })
@@ -33,18 +33,16 @@ export class RegisterComponent implements OnInit {
   }
 
   initializeForm(): void {
+    console.log('initializeForm')
     this.form = this.fb.group({
       username: ['', Validators.required],
       email: ['', Validators.required],
       password: ['', Validators.required],
     })
-
-    console.log(this.form.valid)
   }
 
   onSubmit(): void {
-    console.log(this.form.valid)
-    console.log(this.form.value)
+    console.log('submit', this.form.value, this.form.valid)
     const request: RegisterRequestInterface = {
       user: this.form.value,
     }

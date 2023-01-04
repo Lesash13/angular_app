@@ -6,10 +6,11 @@
         <p class="text-xs-center">
           <a [routerLink]="['/login']">Have an account?</a>
         </p>
-        <backend-error-messages *ngIf="backendErrors$ | async"
-                                [backendErrors]="backendErrors$| async"></backend-error-messages>
-        <form [formGroup]=" form
-        " (ngSubmit)="onSubmit()">
+        <backend-error-messages
+          *ngIf="backendErrors$ | async"
+          [backendErrors]="backendErrors$ | async"
+        ></backend-error-messages>
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
           <fieldset>
             <fieldset class="form-group">
               <input
@@ -35,7 +36,11 @@
                 formControlName="password"
               />
             </fieldset>
-            <button class="btn btn-lg btn-primary pull-xs-right" type="submit" [disabled]="isSubmitting$ | async">
+            <button
+              class="btn btn-lg btn-primary pull-xs-right"
+              type="submit"
+              [disabled]="isSubmitting$ | async"
+            >
               Sign up
             </button>
           </fieldset>

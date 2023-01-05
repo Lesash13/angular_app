@@ -11,8 +11,8 @@ import {FeedTogglerModule} from 'src/app/shared/modules/feedToggler/feedToggler.
 const routes = [
   {
     path: 'feed',
-    component: YourFeedComponent
-  }
+    component: YourFeedComponent,
+  },
 ]
 
 @NgModule({
@@ -22,8 +22,8 @@ const routes = [
     FeedModule,
     BannerModule,
     PopularTagsModule,
-    FeedTogglerModule
+    FeedTogglerModule,
   ],
-  declarations: [YourFeedComponent]
+  declarations: [YourFeedComponent],
 })
 export class YourFeedModule {}

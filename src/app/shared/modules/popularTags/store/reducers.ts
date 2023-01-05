@@ -3,13 +3,13 @@ import {createReducer, on, Action} from '@ngrx/store'
 import {
   getPopularTagsAction,
   getPopularTagsSuccessAction,
-  getPopularTagsFailure
+  getPopularTagsFailure,
 } from './actions/getPopularTags.action'
 
 const initialState: PopularTagsStateInterface = {
   data: null,
   isLoading: false,
-  error: null
+  error: null,
 }
 
 const popularTagsReducer = createReducer(
@@ -18,7 +18,7 @@ const popularTagsReducer = createReducer(
     getPopularTagsAction,
     (state): PopularTagsStateInterface => ({
       ...state,
-      isLoading: true
+      isLoading: true,
     })
   ),
   on(
@@ -26,14 +26,14 @@ const popularTagsReducer = createReducer(
     (state, action): PopularTagsStateInterface => ({
       ...state,
       isLoading: false,
-      data: action.popularTags
+      data: action.popularTags,
     })
   ),
   on(
     getPopularTagsFailure,
     (state): PopularTagsStateInterface => ({
       ...state,
-      isLoading: false
+      isLoading: false,
     })
   )
 )

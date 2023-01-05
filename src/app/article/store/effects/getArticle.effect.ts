@@ -7,7 +7,7 @@ import {ArticleService as SharedArticleService} from 'src/app/shared/services/ar
 import {
   getArticleAction,
   getArticleSuccessAction,
-  getArticleFailureAction
+  getArticleFailureAction,
 } from '../actions/getArticle.action'
 import {ArticleInterface} from 'src/app/shared/types/article.interface'
 

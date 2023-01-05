@@ -5,13 +5,13 @@ import {ArticleStateInterface} from 'src/app/article/types/articleState.interfac
 import {
   getArticleAction,
   getArticleSuccessAction,
-  getArticleFailureAction
+  getArticleFailureAction,
 } from 'src/app/article/store/actions/getArticle.action'
 
 const initialState: ArticleStateInterface = {
   data: null,
   isLoading: false,
-  error: null
+  error: null,
 }
 
 const articleReducer = createReducer(
@@ -20,7 +20,7 @@ const articleReducer = createReducer(
     getArticleAction,
     (state): ArticleStateInterface => ({
       ...state,
-      isLoading: true
+      isLoading: true,
     })
   ),
   on(
@@ -28,14 +28,14 @@ const articleReducer = createReducer(
     (state, action): ArticleStateInterface => ({
       ...state,
       isLoading: false,
-      data: action.article
+      data: action.article,
     })
   ),
   on(
     getArticleFailureAction,
     (state): ArticleStateInterface => ({
       ...state,
-      isLoading: false
+      isLoading: false,
     })
   ),
   on(routerNavigationAction, (): ArticleStateInterface => initialState)

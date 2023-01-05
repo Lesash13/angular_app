@@ -5,6 +5,6 @@ import {TagListComponent} from './components/tagList/tagList.component'
 @NgModule({
   imports: [CommonModule],
   declarations: [TagListComponent],
-  exports: [TagListComponent]
+  exports: [TagListComponent],
 })
 export class TagListModule {}

@@ -4,7 +4,7 @@
       <h1>{{ article.title }}</h1>
       <div class="article-meta">
         <a [routerLink]="['/profiles', article.author.username]">
-          <img [src]="article.author.image" />
+          <img [src]="article.author.image" alt=""/>
         </a>
         <div class="info">
           <a [routerLink]="['/profiles', article.author.username]">
@@ -22,7 +22,11 @@
             <i class="ion-edit"></i>
             Edit Article
           </a>
-          DELETE BUTTON
+          <button class="btn btn-outline-danger btn-sm"
+                  (click)="deleteArticle()"
+          >
+            Delete Article
+          </button>
         </span>
       </div>
     </div>

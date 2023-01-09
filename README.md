@@ -1,27 +1,88 @@
+[![Dependencies][dependency-shield]][dependency-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # AngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+Project is a implemented clone of https://demo.realworld.io/#/ UI connected to the open
+api https://conduit.productionready.io/api/
 
-## Development server
+### Built With
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for
+the acknowledgements section. Here are a few examples.
 
-## Code scaffolding
+* [![Angular][Angular.io]][Angular-url]
+* [![Babel][Babel.io]][Babel-url]
+* [![Redux][Redux.io]][Redux-url]
+* [![JQuery][JQuery.com]][JQuery-url]
+* [![NodeJs][NodeJs.io]][NodeJs-url]
+* [![Prettier][Prettier.io]][Prettier-url]
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Pre-installations
 
-## Build
+#### Npm install:
 
+  ```sh
+  npm install npm@latest -g
+  ```
+
+#### Clone the repo:
+
+```sh
+git clone https://github.com/Lesash13/angular-app.git
+```
+
+## Usage
+
+#### Build:
+
+```
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
 
-## Running unit tests
+#### Code scaffolding:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
 
-## Running end-to-end tests
+#### Development server:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```
 
-## Further help
+<!-- MARKDOWN LINKS & IMAGES -->
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[dependency-shield]: https://img.shields.io/badge/Dependency_Graph-darkgreen?style=for-the-badge
+
+[dependency-url]: https://github.com/Lesash13/angular-app/network/dependencies
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=darkblue
+
+[linkedin-url]: https://www.linkedin.com/in/victoriya-mitrofanova-96839278/
+
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular
+
+[Angular-url]: https://angular.io/
+
+[Babel.io]: https://img.shields.io/badge/-Babel-lightgrey?style=for-the-badge&logo=babel
+
+[Babel-url]:https://babeljs.io/
+
+[Redux.io]: https://img.shields.io/badge/-Redux-blueviolet?style=for-the-badge&logo=redux
+
+[Redux-url]: https://redux.js.org/
+
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery
+
+[JQuery-url]: https://jquery.com
+
+[NodeJs.io]: https://img.shields.io/badge/-Node.js-green?style=for-the-badge&logo=Node.js
+
+[NodeJs-url]: https://nodejs.org/en/
+
+[Prettier.io]: https://img.shields.io/badge/Prettier-0769AD?style=for-the-badge&logo=prettier
+
+[Prettier-url]: https://prettier.io/

@@ -64,7 +64,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 [linkedin-url]: https://www.linkedin.com/in/victoriya-mitrofanova-96839278/
 
-[Typescript.io]: https://img.shields.io/badge/-TypeScript-white?style=for-the-badge&logo=typescript
+[Typescript.io]: https://img.shields.io/badge/-TypeScript-lightblue?style=for-the-badge&logo=typescript
 
 [Typescript-url]: https://www.typescriptlang.org/
 

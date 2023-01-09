@@ -12,6 +12,7 @@ api https://conduit.productionready.io/api/
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for
 the acknowledgements section. Here are a few examples.
 
+* [![Typescript][Typescript.io]][Typescript-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Babel][Babel.io]][Babel-url]
 * [![Redux][Redux.io]][Redux-url]
@@ -62,6 +63,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=darkblue
 
 [linkedin-url]: https://www.linkedin.com/in/victoriya-mitrofanova-96839278/
+
+[Typescript.io]: https://img.shields.io/badge/-TypeScript-white?style=for-the-badge&logo=typescript
+
+[Typescript-url]: https://www.typescriptlang.org/
 
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular
 

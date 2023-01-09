@@ -4,7 +4,7 @@
 # AngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
-Project is a implemented clone of https://demo.realworld.io/#/ UI connected to the open
+Project is an implemented clone of https://demo.realworld.io/#/ UI connected to the open
 api https://conduit.productionready.io/api/
 
 ### Built With

@@ -9,9 +9,6 @@ api https://conduit.productionready.io/api/
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for
-the acknowledgements section. Here are a few examples.
-
 * [![Typescript][Typescript.io]][Typescript-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Babel][Babel.io]][Babel-url]

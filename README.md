@@ -48,7 +48,7 @@ ng generate component component-name
 ```
 
 #### Development server:
-Navigate to `http://localhost:4200/ 
+Navigate to http://localhost:4200/ 
 
 ```sh
 ng serve

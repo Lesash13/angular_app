@@ -1,7 +1,7 @@
 [![Dependencies][dependency-shield]][dependency-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-# AngularApp
+# Angular App example
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 Project is an implemented clone of https://demo.realworld.io/#/ UI connected to the open
@@ -37,21 +37,24 @@ git clone https://github.com/Lesash13/angular-app.git
 ## Usage
 
 #### Build:
+The build artifacts will be stored in the `dist/` directory.
 
-```
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+``` sh
+ng build
 ```
 
-#### Code scaffolding:
+#### Generate new component:
+You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-```
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```sh
+ng generate component component-name
 ```
 
 #### Development server:
+Navigate to `http://localhost:4200/ 
 
-```
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```sh
+ng serve
 ```
 
 <!-- MARKDOWN LINKS & IMAGES -->

@@ -11,7 +11,6 @@ api https://conduit.productionready.io/api/
 
 * [![Typescript][Typescript.io]][Typescript-url]
 * [![Angular][Angular.io]][Angular-url]
-* [![Babel][Babel.io]][Babel-url]
 * [![Redux][Redux.io]][Redux-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 * [![NodeJs][NodeJs.io]][NodeJs-url]
@@ -71,10 +70,6 @@ ng serve
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular
 
 [Angular-url]: https://angular.io/
-
-[Babel.io]: https://img.shields.io/badge/-Babel-lightgrey?style=for-the-badge&logo=babel
-
-[Babel-url]:https://babeljs.io/
 
 [Redux.io]: https://img.shields.io/badge/-Redux-blueviolet?style=for-the-badge&logo=redux
 

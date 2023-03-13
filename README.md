@@ -7,6 +7,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Project is an implemented clone of https://demo.realworld.io/#/ UI connected to the open
 api https://conduit.productionready.io/api/
 
+![img.png](img.png)
+
 ### Built With
 
 * [![Typescript][Typescript.io]][Typescript-url]
